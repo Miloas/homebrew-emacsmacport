@@ -22,7 +22,7 @@ cask 'emacs-mac-spacemacs-icon' do
 
   appcast 'https://github.com/railwaycat/homebrew-emacsmacport/releases.atom'
   name 'Emacs-mac with spacemacs icon'
-  homepage 'https://bitbucket.org/mituharu/emacs-mac.git'
+  homepage 'https://github.com/Miloas/emacs-mac.git'
   desc "YAMAMOTO Mitsuharu's Mac port of GNU Emacs"
 
   conflicts_with cask: [

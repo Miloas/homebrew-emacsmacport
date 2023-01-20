@@ -1,11 +1,10 @@
 class EmacsMac < Formula
-  desc "YAMAMOTO Mitsuharu's Mac port of GNU Emacs"
+  desc "Miloas's Mac port of GNU Emacs (fork from YAMAMOTO Mitsuharu's repo)"
   homepage "https://www.gnu.org/software/emacs/"
-  url "https://bitbucket.org/mituharu/emacs-mac/get/emacs-28.2-mac-9.1.tar.gz"
+  url "https://github.com/Miloas/emacs-mac.git"
   version "emacs-28.2-mac-9.1"
-  sha256 "9287262473589c1edfe42e92b183a8ddf1682c995e81763adfdf95160874843e"
 
-  head "https://bitbucket.org/mituharu/emacs-mac.git", branch: "work"
+  head "https://github.com/Miloas/emacs-mac.git", branch: "master"
 
   option "without-modules", "Build without dynamic modules support"
   option "with-ctags", "Don't remove the ctags executable that emacs provides"

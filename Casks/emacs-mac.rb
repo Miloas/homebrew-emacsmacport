@@ -22,8 +22,8 @@ cask 'emacs-mac' do
 
   appcast 'https://github.com/railwaycat/homebrew-emacsmacport/releases.atom'
   name 'Emacs-mac'
-  homepage 'https://bitbucket.org/mituharu/emacs-mac.git'
-  desc "YAMAMOTO Mitsuharu's Mac port of GNU Emacs"
+  homepage 'https://github.com/Miloas/emacs-mac.git'
+  desc "Miloas's Mac port of GNU Emacs"
 
   conflicts_with cask: [
                         'emacs',
